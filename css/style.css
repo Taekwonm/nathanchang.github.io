@@ -140,12 +140,14 @@ main h2{
     font-family: 'Raleway', sans-serif;
     letter-spacing: 1px;
     text-align: center;    
+    width: 30vw;
 
 }
 
 
 .section-inner1 h2{
     text-align: left;
+    width: 30vw;
 }
 
 p {
@@ -207,7 +209,8 @@ section a {
 section h2 {
     font-size: 2.5vw;    
     margin-left: 10vw;
-    margin-right: 10vw;    
+    margin-right: 10vw;  
+    width: 30vw;
     text-align: left;
     font-family: 'Raleway', sans-serif;
     
@@ -240,6 +243,23 @@ section .profile-pic {
     
 }
 
+section .logo {
+    margin-top: 25px;    
+    margin-left: 10vw;
+    width: 5vw;
+    border-radius: 50%;
+    float: left;
+    
+}
+
+.contact_text {    
+    font-size: 1.5vw;
+    margin-top: 2vw;
+    margin-bottom: 30px;    
+    margin-left: 2.5vw;    
+    float: right;
+}
+
 section .game-art {
     margin-top: 40px;
     margin-left: 10vw;
@@ -247,6 +267,13 @@ section .game-art {
     float: left;
 }
 
+.text-link {
+    margin-top: 1vw;
+}
+
+.img-link {    
+    float: left;
+}
 
 header a {
     text-decoration: none;
@@ -285,7 +312,7 @@ footer {
 
 .gallery img {
     transition: 1s;
-    padding: -5px;
+    padding: 0px;
     width: 12.15vw;
 }
 
@@ -307,7 +334,7 @@ footer {
     margin-left: 0vw;
     margin-right: 0vw;
     width: 50vw;
-    text-aling: left;
+    text-align: left;
 }
 
 /* Featurettes
