@@ -54,7 +54,7 @@ header li {
     color: white;
     
     /* Background styles */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("C:/Users/Natha/Documents/website/pics/background.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("pics/background.JPG");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -86,7 +86,7 @@ header li {
     color: white;
     
     /* Background styles */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("C:/Users/Natha/Documents/website/pics/blendTree.gif");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("pics/blendTree.gif");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -108,7 +108,7 @@ header li {
     color: white;
     
     /* Background styles */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("C:/Users/Natha/Documents/website/pics/food/steak.gif");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("pics/food/steak.gif");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
