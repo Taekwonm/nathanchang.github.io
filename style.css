@@ -1,5 +1,5 @@
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;    
 }
 
 body {
@@ -7,7 +7,7 @@ body {
     font-family: sans-serif;
     padding: 0;
     display: block;
-        background-color: black;
+    background-color: black;
 }
 
 header {
@@ -28,9 +28,9 @@ header * {
 
 header ul {
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 
 }
 
@@ -62,7 +62,7 @@ header li {
 
 .main h1 {
     /* Text styles */
-    font-size: 5em;
+    font-size: 5rem;
    
     
     /* Margins */
@@ -70,10 +70,43 @@ header li {
     margin-bottom: 0.5em;    
 }
 
-main h2{
-    font-family: 'Open Sans', cursive;
-    letter-spacing: 1px;
+.main2 {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
     text-align: center;
+    color: white;
+    
+    /* Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("pics/blendTree.gif");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main2 h1 {
+    /* Text styles */
+    font-size: 5rem;
+   
+    
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;    
+}
+
+
+main h2{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;    
 
 }
 
@@ -83,7 +116,7 @@ main h2{
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 28px;
 
 }
@@ -117,58 +150,44 @@ a:hover {
 footer {
     text-align: center;
     padding: 50px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 
 section p {
-    font-size: 1.5em;  
+    font-size: 1.25vw;  
     margin-left: 5vw;
-    margin-right: 10vw;
-    margin-bottom: 100px;
+    margin-right: 10vw;    
     width: 40vw;
     line-height: 1.5;
     text-align: left; 
     display: inline-block;
-
 }
-
 
 section a {
     display: inline-block;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     
 }
 
 section h2 {
-    font-size: 3em;    
+    font-size: 2.5vw;    
     margin-left: 10vw;
     margin-right: 10vw;    
     text-align: left;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     
 }
 
 section h3 {
-    font-size: 1.5em;
+    font-size: 1.5vw;
     margin-left: 10vw;
     margin-right: 10vw;
     margin-bottom: 50px;
     text-align: left;
     color: darkgray;
-    font-family: 'Open Sans', sans-serif;
-    
-}
-
-
-section h4 {
-    font-size: 1.5em;
-    margin-left: 45vw;
-    margin-right: 10vw;
-    text-align: left;
-    color: darkgray;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     
 }
 
@@ -189,8 +208,9 @@ section .profile-pic {
 }
 
 section .game-art {
+    margin-top: 40px;
     margin-left: 10vw;
-    width: 30vw;
+    width: 40vw;
     float: left;
 }
 
@@ -198,11 +218,65 @@ section .game-art {
 header a {
     text-decoration: none;
     color: white;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 header a:hover {
     color: lightblue;
 }
 
-/* Add everything below here */
+footer {
+    color: white;
+}
+
+.featurette-img {
+    margin-left: 5vw;
+    margin-bottom: 50px;
+    width: 50vw;
+}
+
+.lead {
+    color: white;
+    font-size: 1.25vw;
+    margin-right: 2vw;
+    width: 40vw;
+    float: right;
+    display: inline-block;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+    color: darkgray;
+    background-color: black;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    font-size: 2.5vw;
+    line-height: 1;
+    letter-spacing: -.05rem;
+    color: white;    
+    margin-right: 2vw;    
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  .featurette-heading {
+    font-size: 50px;
+    color: white;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+    color: white;
+  }
+}
