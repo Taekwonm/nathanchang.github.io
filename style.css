@@ -5,13 +5,16 @@ html {
 body {
     margin: 0;
     font-family: sans-serif;
+    padding: 0;
+    display: block;
+        background-color: black;
 }
 
 header {
     display: flex;
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 20px;
+    left: 10px;
     right: 0;
     height: 50px;
     line-height: 50px;    
@@ -19,11 +22,16 @@ header {
 
 header * {
     display: inline;
-    height: 50px;    
+    height: 50px;   
+    color: lightblue; 
 }
 
 header ul {
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+
 }
 
 header li {
@@ -55,10 +63,29 @@ header li {
 .main h1 {
     /* Text styles */
     font-size: 5em;
+   
     
     /* Margins */
     margin-top: 0;
     margin-bottom: 0.5em;    
+}
+
+main h2{
+    font-family: 'Open Sans', cursive;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+
+
+.section-inner1 h2{
+    text-align: left;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+
 }
 
 section {
@@ -68,32 +95,87 @@ section {
     justify-content: center;
     align-items: center;
     text-align: left;
+   
     color: white;        
     
-    background-color: black;
+
     background-size: cover; /* Add this line */
     background-position: center center; /* Add this line */
     background-repeat: no-repeat; /* Add this line */
     background-attachment: fixed; /* Add this line */
 }
 
+a {
+    color: lightblue;
+}
+
+a:hover {
+    color: white;
+    text-align: center;
+}
 
 footer {
     text-align: center;
     padding: 50px;
+    font-family: 'Open Sans', sans-serif;
 }
 
+
 section p {
-    font-size: 1em;    
+    font-size: 1.5em;  
+    margin-left: 5vw;
+    margin-right: 10vw;
+    width: 50vw;
+    line-height: 1.5;
+    text-align: left; 
+    display: inline-block;
+
+}
+
+section a {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    
 }
 
 section h2 {
-    font-size: 2.5em;
+    font-size: 3em;
+    margin-left: 20vw;
+    margin-right: 10vw;
+    text-align: center;
+}
+
+section h3 {
+    font-size: 1.5em;
+    margin-left: 20vw;
+    margin-right: 10vw;
+    text-align: left;
+    color: darkgray;
+}
+
+section ul {
+    list-style: none;
+    margin-left: 0;
+        text-align: center;
+
+}
+
+section .profile-pic {    
+    width: 15vw;
+    border-radius: 50%;
+    float: left;
+    
 }
 
 header a {
     text-decoration: none;
     color: white;
+    font-size: 1em;
+}
+
+header a:hover {
+    color: lightblue;
 }
 
 /* Add everything below here */
