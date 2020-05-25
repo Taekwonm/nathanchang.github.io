@@ -1,0 +1,99 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;    
+}
+
+header * {
+    display: inline;
+    height: 50px;    
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;    
+}
+
+.main {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    color: white;
+    
+    /* Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("pics/background.JPG");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main h1 {
+    /* Text styles */
+    font-size: 5em;
+    
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;    
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: white;        
+    
+    background-color: black;
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+section p {
+    font-size: 1em;    
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Add everything below here */
